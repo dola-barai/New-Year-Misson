@@ -1,4 +1,7 @@
-/* Heading Part */
+/* First-part Heading Part */
+*{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
 .heading{
      background-image: url(../images/banner/banner3.png);
      background-repeat: no-repeat;
@@ -8,7 +11,7 @@
 .heading-text{
     text-align: right;
     margin-right: 250px;
-    padding-top: 150px;
+    padding-top: 100px;
     margin-left: 900px;  
 }
 .heading-title{
@@ -28,4 +31,24 @@
     padding: 15px 25px;
     border: 0;
     border-radius: 5px;
+}
+
+/* Second Part (Image + Text*/
+.content{
+    display: flex;
+    justify-content: space-around;
+    margin: 40px 150px;
+    padding-right: 50px;
+}
+.content-text{
+    padding: 150px 150px;
+    
+}
+.content-title{
+    color: #151414;
+    font-size: 40px;
+}
+.content-description{
+    font-size: 18px;
+    color: #444343;
 }
