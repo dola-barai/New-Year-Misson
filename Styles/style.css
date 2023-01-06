@@ -1,0 +1,31 @@
+/* Heading Part */
+.heading{
+     background-image: url(../images/banner/banner3.png);
+     background-repeat: no-repeat;
+     height: 810px;
+     width: 1600px;
+}
+.heading-text{
+    text-align: right;
+    margin-right: 250px;
+    padding-top: 170px;
+    margin-left: 900px;  
+}
+.heading-title{
+    font-size: 65px;
+    color: white;
+}
+.heading-description{
+    font-size: 16px;
+    color: white;
+    margin-top: -20px;
+    margin-bottom: 20px;
+}
+.button-primary{
+    background: white;
+    color: #005FAC;
+    font-size: 20px;
+    padding: 15px 25px;
+    border: 0;
+    border-radius: 5px;
+}
