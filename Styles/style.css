@@ -33,7 +33,7 @@
     border-radius: 5px;
 }
 
-/* Second Part (Image + Text*/
+/* Second Part (Image + Text)*/
 .content{
     display: flex;
     justify-content: space-around;
@@ -51,4 +51,85 @@
 .content-description{
     font-size: 18px;
     color: #444343;
+}
+
+/* Third Part - My Plans */
+.my-plans{
+    text-align: center;
+    font-size: 40px;
+    color: #000;
+    
+}
+.plans{
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    margin: 50px 350px 150px 350px;
+}
+/* Four part - Apply Gradiant */
+.apply-gradiant{
+    background: url(../images/watch.png);
+    background-repeat: no-repeat;
+    height: 300px;
+    width: 1200px;
+    margin-left: 240px;
+    margin-right: 240px;
+    margin-bottom: 120px;
+}
+.apply-gradiant-txt{
+    padding-top: 30px;
+    padding-left: 100px;
+    padding-right: 600px;
+}
+.apply-gradiant-title{
+    font-size: 40px;
+    color: white;
+}
+
+/* Last part - Footer Form */
+.footer{
+    background: black;
+    height: 450px;
+}
+.footer-items{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 200px;
+    margin-right: 200px;
+    padding: 60px;
+    gap: 200px;
+}
+.footer-title{
+    font-size: 40px;
+    color: #F8F8F8;
+}
+.footer-description{
+    font-size: 16px;
+    color: whitesmoke;
+    margin-bottom: 20px;
+}
+.footer-icons{
+    display: flex;
+    gap: 25px;
+}
+.subscribe-title{
+    color: white;
+    font-size: 25px;
+}
+.input{
+    border: 2px solid #444343;  
+    height: 45px;
+    width: 250px;
+    margin-bottom: 20px;
+    background: black;
+    border-radius: 5px;
+}
+
+.button-subscribe{
+    background: #005FAC;
+    color: white;
+    font-size: 20px;
+    padding: 12px 25px;
+    border: 0;
+    border-radius: 5px; 
 }
