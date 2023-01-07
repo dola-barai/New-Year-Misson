@@ -68,12 +68,10 @@
 }
 /* Four part - Apply Gradiant */
 .apply-gradiant{
-    background: linear-gradient(45deg,
-    rgba(8,83,156, 0.75),
-    rgba(160, 190, 220, 0.75)),url(../images/watch.png);
+    background: linear-gradient(90deg, #005FAC 0%, rgba(0, 95, 172, 0) 100%), url(../images/watch.png);
     background-repeat: no-repeat;
     height: 300px;
-    width: 1140px;
+    width: 1200px;
     margin-left: 240px;
     margin-right: 240px;
     margin-bottom: 120px;
