@@ -64,9 +64,59 @@
     display: flex;
     text-align: center;
     justify-content: space-around;
-    margin: 50px 350px 150px 350px;
+    margin: 50px 350px 100px 350px;
 }
-/* Four part - Apply Gradiant */
+/* Four part - My Daily Planner(Extra) */
+.my-weekly-planner{
+   background-image: linear-gradient(90deg, #005FAC 0%, rgba(0, 95, 172, 0) 100%), url(../images/banner/banner5.jpg);
+   background-repeat: no-repeat;
+   height: 850px;
+   width: 1600px;
+   margin-bottom: 100px;
+}
+.my-weekly-planner-title-text{
+   text-align: center;
+   padding-top: 40px;
+   
+}
+.my-weekly-planner-title{
+    font-size: 30px;
+    margin-bottom: 0;
+    color: white;
+}
+.my-weekly-planner-subtitle{
+    font-size: 18px;
+    color: white;
+}
+
+table{
+    margin-left: auto;
+    margin-right: auto;
+}
+td{
+    border: 0;
+    border-collapse: collapse;
+    border-radius: 10px;
+    height: 150px;
+    width: 250px;
+    padding-top: 10px;
+    padding-bottom: 140px;
+    background-color: rgba(178, 191, 213, 0.724);
+    font-size: 20px;
+    text-decoration: underline;
+}
+.tr-1st{
+    display: flex;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+.tr-2nd{
+    display: flex;
+    gap: 20px;
+}
+
+
+/* Fifth part - Apply Gradiant */
 .apply-gradiant{
     background: linear-gradient(90deg, #005FAC 0%, rgba(0, 95, 172, 0) 100%), url(../images/watch.png);
     background-repeat: no-repeat;
